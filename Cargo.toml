@@ -8,6 +8,5 @@ actix-web = "4.12.1"
 env_logger = "0.11.9"
 io = "0.0.2"
 log = "0.4.29"
-mlua = {  version = "0.11", features = ["lua54", "async", "serde"]}
-serde = "1.0.228"
+mlua = {  version = "0.11", features = ["lua54", "async"]}
 
