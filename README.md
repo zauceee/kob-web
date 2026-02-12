@@ -1,4 +1,4 @@
-# Kob-Web W.I.P
+# Kob-Web (W.I.P)
 ## A blazingly fast Rust Webserver built with Actix+mlua, that supports Lua as a backend scripting language with support to LuaRocks.
 
 
@@ -26,7 +26,7 @@ hi="Hello"
 name="john"
 
 ---you need to always return something at the end of the script so that the endpoint renders output. 
-return hello .. "my name is" .. name
+return hello .. "my name is" .. name .. "today it is: " .. os.time()
 
 ```
 
